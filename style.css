@@ -1,0 +1,45 @@
+body {
+    background-color: #1a1a1a; /*Warna gelap */
+    font-family: Arial, sans-serif;
+}
+
+.wadah-hp {
+    background-color: #2a2a2a;
+    max-width: 350px; /*Kunci ukuran HP! */
+    margin: 50px auto; /*Ketengah layar */
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+.foto-bulat {
+    width: 100px;
+    border-radius: 50%; /* Membuat foto melingkar sempurna */
+    border: 3px soild #00ffcc; /* Garis pinggir warna neon */
+}
+
+.nama-akun {
+    color: white;
+    margin-bottom: 5px;
+}
+
+.bio-singkat {
+    color: #aaaaaa;
+}
+
+
+.tombol-link {
+    display: block; /* Agar tombol turun ke bawah, tidak sejajar */
+    background-color: white;
+    color: black;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 25px; /* Bentuk pil membulat */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    font-weight: 0.3s;
+}
+
+.tombol-link:hover {
+    background-color: #00ffcc; /* Berubah warna saat disentuh */
+    color: black;
+    transform: scale(1.05); /* Membesar 5% */
+}
